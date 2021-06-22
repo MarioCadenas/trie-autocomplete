@@ -1,11 +1,17 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from 'react';
+import Trie from './trie';
+import './style.css';
+
+const trie = new Trie();
+
+trie.insert('foo');
 
 export default function App() {
+  console.log(trie);
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>Insert text to see autocomplete</h1>
+      <input value={} />
     </div>
   );
 }
