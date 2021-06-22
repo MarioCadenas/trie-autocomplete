@@ -1,3 +1,3 @@
-# react-d8kjke
+# Trie Auto Complete
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-d8kjke)
+Just a small playground to try out Trie data structure.

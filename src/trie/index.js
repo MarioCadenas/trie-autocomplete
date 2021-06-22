@@ -1,1 +1,1 @@
-export { default } from './Trie';
+export { default } from './words-trie';

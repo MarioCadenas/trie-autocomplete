@@ -1,4 +1,4 @@
-import TrieNode from './TrieNode';
+import TrieNode from './trie-node';
 
 export default class Trie {
   constructor() {
